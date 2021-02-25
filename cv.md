@@ -32,30 +32,23 @@ authorsSchema.pre('remove', function(next) {
 ### Examples  
 
 [english test](https://sergecage.github.io/Platform-Concept/Engl/index.html)
-[Source] (https://github.com/Sergecage/Platform-Concept)
+[Source](https://github.com/Sergecage/Platform-Concept)
 
 ### Expirience
 
-[Web Design for Everybody: Basics of Web Development & Coding Specialization]
-(https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
+[Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
 
-[Introduction to HTML5]
-(https://www.coursera.org/account/accomplishments/certificate/4AG8VUD5AR8X)
+[Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/4AG8VUD5AR8X)
  
-[Introduction to CSS3]
-(https://www.coursera.org/account/accomplishments/certificate/6RJKSHREQV25)
+[Introduction to CSS3](https://www.coursera.org/account/accomplishments/certificate/6RJKSHREQV25)
  
-[Interactivity with JavaScript]
-(https://www.coursera.org/account/accomplishments/certificate/XCS6ZD2BR8FX)
+[Interactivity with JavaScript](https://www.coursera.org/account/accomplishments/certificate/XCS6ZD2BR8FX)
 
-[Advanced Styling with Responsive Design]
-(https://www.coursera.org/account/accomplishments/certificate/9A95ZUUR8DYB)
+[Advanced Styling with Responsive Design](https://www.coursera.org/account/accomplishments/certificate/9A95ZUUR8DYB)
 
-[Web Design for Everybody Capstone]
-(https://www.coursera.org/account/accomplishments/certificate/V8CTMZTY55DY)
+[Web Design for Everybody Capstone](https://www.coursera.org/account/accomplishments/certificate/V8CTMZTY55DY)
 
-[Web Design for Everybody: Basics of Web Development & Coding Specialization]
-(https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
+[Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
 
 ### Education
 
