@@ -3,7 +3,7 @@
 
 ### Personal skills 
 
-Higly motivated to get sufficient expirience in frontend development. Spend more than 20 hours per week on self-studying. 
+Highly motivated to get sufficient expirience in frontend development. Spend more than 20 hours per week on self-studying. 
 ***
 Full of new ideas and open to critics. Confident. 
 
@@ -48,7 +48,6 @@ authorsSchema.pre('remove', function(next) {
 
 [Web Design for Everybody Capstone](https://www.coursera.org/account/accomplishments/certificate/V8CTMZTY55DY)
 
-[Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
 
 ### Education
 
