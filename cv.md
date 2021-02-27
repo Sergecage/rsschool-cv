@@ -4,7 +4,7 @@
 ### Personal skills 
 
 Highly motivated to get sufficient expirience in frontend development. Spend more than 20 hours per week on self-studying. 
-***
+<br>
 Full of new ideas and open to critics. Confident. 
 
 ### Frontend Skills
