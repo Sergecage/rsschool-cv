@@ -1,0 +1,45 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(104, 98, 98),rgb(223, 203, 203) );
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPic {
+    width: 250px;
+    height: 250px;
+    left: 25%;
+    position: relative;
+}
+
+.name {
+    position: relative;
+    left: 28%;
+}
+
+.info {
+    position: relative;
+    left: 25%;
+}
+
+.codeIm {
+    width: 700px;
+    height: 350px;
+}
+
+.ref {
+    text-decoration: none;
+}
