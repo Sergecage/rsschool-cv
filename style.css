@@ -69,21 +69,42 @@ a{
 }
 li {
     padding: 5px;
+    height: 50px;
 }
 
 .bottom-ref{
-    display: inline;
+    display: inline-block;
 } 
 
 .linkedin {
-    width: 50px;
+    display: block;
+    width: 80px;
     height: 50px;
-    background-image: url(Linkedin.png);
 }
 
-.rs {
-    width: 50px;
+.github {
+    display: block;
+    width: 80px;
     height: 50px;
-    background-image: url(Rs-logo.png);
+}
+.rs {
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-image: url(rs_school_js.svg);
     background-repeat: no-repeat ;
+}
+
+.uTube {
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-image: url(YouTube_full-color_icon.svg);
+    background-repeat: no-repeat ;
+}
+
+.date-of-creation {
+    display: block;
+    width: 250px;
+    height: 250px;
 }
