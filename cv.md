@@ -1,5 +1,5 @@
 # Sergei Keidzh
-## zorgers@mail.ru +79969770686
+## zorgers@mail.ru +7996977xxxx
 
 ### Personal skills 
 
