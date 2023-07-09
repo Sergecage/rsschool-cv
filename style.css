@@ -12,6 +12,10 @@ body {
     width: 50%;
 }
 
+img{
+    border-radius: 15px;
+}
+
 header {
     display: block;
     justify-content: center;
@@ -42,4 +46,12 @@ header {
 
 .ref {
     text-decoration: none;
+}
+
+a{
+    color: #6d0270;
+}
+
+a:hover{
+    opacity: 0.5;
 }
