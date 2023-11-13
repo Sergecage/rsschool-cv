@@ -1,5 +1,9 @@
 # Sergei Keidzh
+<<<<<<< HEAD
 ## Discord Serge Cage 
+=======
+## xs@mail.ru +7996977xxxx
+>>>>>>> master
 
 ### Personal skills 
 
@@ -9,7 +13,11 @@ Full of new ideas and open to critics. Confident.
 
 ### Frontend Skills
 
+<<<<<<< HEAD
 Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
+=======
+Javascript, HTML5, CSS(SCSS), Jquery, SASS, NODE.js, (Bootstrap) 
+>>>>>>> master
 ### Code editors
 
 VScode, Atom, Sublime, Notepad++
@@ -17,6 +25,7 @@ VScode, Atom, Sublime, Notepad++
 ### Code example
 
 ```js
+<<<<<<< HEAD
 const twoSum = (nums, target) => {
     const hashMap = {};
 
@@ -29,11 +38,27 @@ const twoSum = (nums, target) => {
     }
 }
 
+=======
+authorsSchema.pre('remove', function(next) {
+    Book.find( { author: this.id}, (err,book) => {
+        if (err) {
+            next(err)
+        } else if (books.length > 0) {
+            next(new Error('This author has books still'))
+        } else {
+            next()
+        }
+    })
+})
+>>>>>>> master
 ```
 ### Examples  
 
 [english test](https://sergecage.github.io/Platform-Concept/Engl/index.html)
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 [Source](https://github.com/Sergecage/Platform-Concept)
 
 ### Expirience
