@@ -12,7 +12,7 @@ Full of new ideas and open to critics. Confident.
 Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
 
 ### Code editors
-VScode, Atom, Sublime, Notepad++
+VScode, Atom, Sublime, Notepad++;
 
 ### Code example
 
