@@ -38,17 +38,18 @@
     <h3 class="codeName">Code example</h3>
     <pre class="codeIm">
         <code>
-            " const twoSum = (nums, target) => {
+            const twoSum = (nums, target) => {
             const hashMap = {};
         
-            for (let i = 0; i < nums.length; i++){
+            for (let i = 0; i  nums.length; i++) {
                 let matched = target - nums[i]
                 if (matched in hashMap){
                     return [hashMap[matched],i];
                 }
                 hashMap[nums[i]] =i;
             }
-        }"</code>
+        }; 
+    </code>
     </pre>
     <h3 class="optionName">Examples of work</h3>
     <a class="ref" href="https://sergecage.github.io/Platform-Concept/Engl/index.html">English test</a>
