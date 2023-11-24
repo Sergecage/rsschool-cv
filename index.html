@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV SK</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img class="mainPic" src="cvPic.jpg" alt="photo">
+        <h1 class="name">Sergei Keidzh</h1>
+        <h2 class="info"><b>Discord:</b>Serge Cage<br><b>Phone:</b>+7996977xxxx</h2>
+    </header>
+
+    <main>
+        <h3 class="optionName">Personal skills</h3>
+        <p>Highly motivated to get sufficient experience in frontend development. Spend more than 20 hours per week on self-studying.<br>Full of new ideas and open to critics. Confident.</p>
+    <h3 class="optionName">Frontend Skills</h3>
+    <ul>
+        <li>Javascript</li>
+        <li>HTML5</li>
+        <li>CSS(SCSS)</li>
+        <li>Jquery</li>
+        <li>SASS</li>
+        <li>NODE.js</li>
+        <li>(Bootstrap)</li>
+    </ul>
+    <h3 class="optionName">Code editors</h3>
+    <ul>
+        <li>VScode</li>
+        <li>Atom</li>
+        <li>Sublime</li>
+        <li>Notepad++</li>
+    </ul>
+    <h3 class="codeName">Code example</h3>
+    <pre class="codeIm">
+        <code>
+            const twoSum = (nums, target) => {
+            const hashMap = {};
+        
+            for (let i = 0; i  nums.length; i++) {
+                let matched = target - nums[i]
+                if (matched in hashMap){
+                    return [hashMap[matched],i];
+                }
+                hashMap[nums[i]] =i;
+            }
+        }; 
+    </code>
+    </pre>
+    <h3 class="optionName">Examples of work</h3>
+    <a class="ref" href="https://sergecage.github.io/Platform-Concept/Engl/index.html">English test</a>
+    <br><a class="ref" href="https://github.com/Sergecage/Platform-Concept">Source</a>
+    <h3 class="optionName">Experience</h3>
+    <a class="ref" href="https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ">
+        Web Design for Everybody: Basics of Web Development and Coding Specialization</a><br>
+    <a class="ref" href="https://www.coursera.org/account/accomplishments/certificate/9A95ZUUR8DYB">
+        Advanced Styling with Responsive Design</a><br>
+    <a class="ref" href="https://www.coursera.org/account/accomplishments/certificate/V8CTMZTY55DY">
+        Web Design for Everybody Capstone</a><br>
+        <h3 class="optionName">Education</h3>
+        <p>Linguist, translator (South Ural State University 2010-2015)<br>Courses in web development Coursera.org</p>
+            <h3 class="optionName">Languages</h3>
+        <p>English (C2)<br>Swedish<br>German</p>
+        </main>
+    </div>
+    <footer>
+            <a class="footer-git" href="https://github.com/Sergecage">Github</a>
+        <p class="footer-p">2023</p>
+        <a href="https://rs.school/js/" ><img class="rs-logo" src="rs_school_js.svg" alt="logo"></a>
+    </footer>
+</body>
+</html>
