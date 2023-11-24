@@ -1,5 +1,9 @@
 # Sergei Keidzh
+<<<<<<< HEAD
 ## Discord Serge Cage
+=======
+## Discord Serge Cage 
+>>>>>>> gh-pages
 
 
 ### Personal skills 
@@ -9,10 +13,17 @@ Highly motivated to get sufficient expirience in frontend development. Spend mor
 Full of new ideas and open to critics. Confident. 
 
 ### Frontend Skills
+<<<<<<< HEAD
 Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap) 
 
 ### Code editors
 VScode, Atom, Sublime, Notepad++
+=======
+Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
+
+### Code editors
+VScode, Atom, Sublime, Notepad++;
+>>>>>>> gh-pages
 
 ### Code example
 
@@ -28,11 +39,15 @@ const twoSum = (nums, target) => {
         hashMap[nums[i]] =i;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> gh-pages
 ```
 ### Examples  
 
 [english test](https://sergecage.github.io/Platform-Concept/Engl/index.html)
+
 [Source](https://github.com/Sergecage/Platform-Concept)
 
 ### Expirience
