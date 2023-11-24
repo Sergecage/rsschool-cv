@@ -41,7 +41,7 @@
             const twoSum = (nums, target) => {
             const hashMap = {};
         
-            for (let i = 0; i  nums.length; i++) {
+            for (let i = 0; i nums.length; i++) {
                 let matched = target - nums[i]
                 if (matched in hashMap){
                     return [hashMap[matched],i];
