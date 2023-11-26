@@ -1,5 +1,10 @@
 # Sergei Keidzh
-## zorgers@mail.ru +7996977xxxx
+<<<<<<< HEAD
+## Discord Serge Cage
+=======
+## Discord Serge Cage 
+>>>>>>> gh-pages
+
 
 ### Personal skills 
 
@@ -8,30 +13,41 @@ Highly motivated to get sufficient expirience in frontend development. Spend mor
 Full of new ideas and open to critics. Confident. 
 
 ### Frontend Skills
+<<<<<<< HEAD
+Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap) 
 
-Javascript, HTML5, CSS(SCSS), Jquery, SASS, NODE.js, (Bootstrap) 
 ### Code editors
-
 VScode, Atom, Sublime, Notepad++
+=======
+Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
+
+### Code editors
+VScode, Atom, Sublime, Notepad++;
+>>>>>>> gh-pages
 
 ### Code example
 
 ```js
-authorsSchema.pre('remove', function(next) {
-    Book.find( { author: this.id}, (err,book) => {
-        if (err) {
-            next(err)
-        } else if (books.length > 0) {
-            next(new Error('This author has books still'))
-        } else {
-            next()
+const twoSum = (nums, target) => {
+    const hashMap = {};
+
+    for (let i = 0; i < nums.length; i++){
+        let matched = target - nums[i]
+        if (matched in hashMap){
+            return [hashMap[matched],i];
         }
-    })
-})
+        hashMap[nums[i]] =i;
+    }
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> gh-pages
 ```
 ### Examples  
 
 [english test](https://sergecage.github.io/Platform-Concept/Engl/index.html)
+
 [Source](https://github.com/Sergecage/Platform-Concept)
 
 ### Expirience
