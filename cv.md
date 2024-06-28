@@ -62,4 +62,3 @@ Courses in web development Coursera.org
 -English Adavanced (C1)
 Participant of work and travel programm in 2012 and 2013.
 -German (B2)
--Swedish
