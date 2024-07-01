@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(104, 98, 98),rgb(223, 203, 203) );
+    background: linear-gradient(to right, rgb(104, 98, 98),rgb(103, 141, 135));
 }
 
 .container {
@@ -41,7 +41,7 @@ header {
 
 .codeIm {
     width: 700px;
-    height: 350px;
+    background-color: #6a4c6b;
 }
 
 .ref {
@@ -56,13 +56,13 @@ a:hover{
     opacity: 0.5;
 }
 
-footer {
+footer{
     background-color: #3f17ad;
     height: 60px;
     position: relative;
 }
 
-.footer-git {
+.footer-git{
     width: 180px;
     height: 25px;
     left: 30%;
@@ -71,7 +71,7 @@ footer {
     position: absolute;
 }
 
-.footer-p {
+.footer-p{
     left: 25%;
     position: relative;
     width: 40px;
@@ -79,7 +79,7 @@ footer {
     padding: 0;
 }
 
-.rs-logo {
+.rs-logo{
     height: 40px;
     width: 60px;
     left: 70%;
