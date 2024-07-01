@@ -1,10 +1,9 @@
 # Sergei Keidzh
 
-<<<<<<< HEAD
 
 ## Discord Serge Cage
 
-=======
+
 
 ## Discord Serge Cage
 
@@ -12,26 +11,30 @@
 
 ### Personal skills
 
-Highly motivated to get sufficient expirience in frontend development. Spend more than 20 hours per week on self-studying.
+### Personal skills
+
+
+Highly motivated to get sufficient expirience in frontend development. Spend more than 40 hours per week on self-studying.
+
+
 <br>
 Full of new ideas and open to critics. Confident.
 
 ### Frontend Skills
 
-<<<<<<< HEAD
+
 Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
 
 ### Code editors
 
 # VScode, Atom, Sublime, Notepad++
 
-Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
+
 
 ### Code editors
 
 VScode, Atom, Sublime, Notepad++;
 
-> > > > > > > gh-pages
 
 ### Code example
 
@@ -47,10 +50,16 @@ const twoSum = (nums, target) => {
         hashMap[nums[i]] =i;
     }
 }
-<<<<<<< HEAD
+  const hashMap = {};
 
-=======
->>>>>>> gh-pages
+  for (let i = 0; i < nums.length; i++) {
+    let matched = target - nums[i];
+    if (matched in hashMap) {
+      return [hashMap[matched], i];
+    }
+    hashMap[nums[i]] = i;
+  }
+};
 ```
 
 ### Examples
@@ -83,3 +92,4 @@ Courses in web development Coursera.org
 -English Adavanced (C1)
 Participant of work and travel programm in 2012 and 2013.
 -German (B2)
+-Swedish
