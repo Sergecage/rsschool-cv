@@ -1,15 +1,17 @@
 # Sergei Keidzh
+
 ## Discord Serge Cage 
 
+### Personal skills
 
-### Personal skills 
-
-Highly motivated to get sufficient expirience in frontend development. Spend more than 20 hours per week on self-studying. 
+Highly motivated to get sufficient expirience in frontend development. Spend more than 20 hours per week on self-studying.
 <br>
-Full of new ideas and open to critics. Confident. 
+Full of new ideas and open to critics. Confident.
+
 
 ### Frontend Skills
 Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
+
 
 ### Code editors
 VScode, Atom, Sublime, Notepad++;
@@ -18,18 +20,20 @@ VScode, Atom, Sublime, Notepad++;
 
 ```js
 const twoSum = (nums, target) => {
-    const hashMap = {};
+  const hashMap = {};
 
-    for (let i = 0; i < nums.length; i++){
-        let matched = target - nums[i]
-        if (matched in hashMap){
-            return [hashMap[matched],i];
-        }
-        hashMap[nums[i]] =i;
+  for (let i = 0; i < nums.length; i++) {
+    let matched = target - nums[i];
+    if (matched in hashMap) {
+      return [hashMap[matched], i];
     }
-}
+    hashMap[nums[i]] = i;
+  }
+};
+
 ```
-### Examples  
+
+### Examples
 
 [english test](https://sergecage.github.io/Platform-Concept/Engl/index.html)
 
@@ -37,26 +41,25 @@ const twoSum = (nums, target) => {
 
 ### Expirience
 
-[Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
+[Web Design for Everybody: Basics of Web Development &amp Coding Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/MF9PZ5UM8FRQ)
 
 [Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/4AG8VUD5AR8X)
- 
+
 [Introduction to CSS3](https://www.coursera.org/account/accomplishments/certificate/6RJKSHREQV25)
- 
+
 [Interactivity with JavaScript](https://www.coursera.org/account/accomplishments/certificate/XCS6ZD2BR8FX)
 
 [Advanced Styling with Responsive Design](https://www.coursera.org/account/accomplishments/certificate/9A95ZUUR8DYB)
 
 [Web Design for Everybody Capstone](https://www.coursera.org/account/accomplishments/certificate/V8CTMZTY55DY)
 
-
 ### Education
 
 Linguist, translator (South Ural State University 2010-2015)
-Courses in web development  Coursera.org
+Courses in web development Coursera.org
 
 ### Languages
 
 -English Adavanced (C1)
-Participant of work and travel programm in 2012 and 2013. 
+Participant of work and travel programm in 2012 and 2013.
 -German (B2)
