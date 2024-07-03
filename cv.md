@@ -15,34 +15,22 @@ Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
 
 ### Code editors
 
-# VScode, Atom, Sublime, Notepad++
-
-Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
-
-### Code editors
-
 VScode, Atom, Sublime, Notepad++;
-
-> > > > > > > gh-pages
 
 ### Code example
 
 ```js
 const twoSum = (nums, target) => {
-    const hashMap = {};
+  const hashMap = {};
 
-    for (let i = 0; i < nums.length; i++){
-        let matched = target - nums[i]
-        if (matched in hashMap){
-            return [hashMap[matched],i];
-        }
-        hashMap[nums[i]] =i;
+  for (let i = 0; i < nums.length; i++) {
+    let matched = target - nums[i];
+    if (matched in hashMap) {
+      return [hashMap[matched], i];
     }
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> gh-pages
+    hashMap[nums[i]] = i;
+  }
+};
 ```
 
 ### Examples
