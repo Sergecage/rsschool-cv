@@ -85,6 +85,7 @@ main{
         display: flex;
         flex-wrap: wrap;
         gap: 0.5em;
+        justify-content: center;
         li{
             border: 1px solid black;
             border-radius: 25%;
@@ -102,10 +103,17 @@ main{
                 width: 60%;
             }
             }
-            &:nth-child(n + 4) {
+            &:nth-child(n + 5) {
                 a{
-                    
+                    position: relative;
+                    top: 15%;
                     align-items:center;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                a{
+                    opacity: 0.5;
                 }
             }
         }
@@ -113,7 +121,9 @@ main{
 }
 
 .codeIm {
-    background-color: #6a4c6b;
+    background: linear-gradient(to right, rgb(119, 207, 188),rgba(20, 16, 75, 0.877));
+    color: aliceblue;
+    max-width: inherit;
 }
 
 .ref {
