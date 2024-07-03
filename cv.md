@@ -1,6 +1,6 @@
 # Sergei Keidzh
 
-## Discord Serge Cage
+## Discord Serge Cage 
 
 ### Personal skills
 
@@ -8,13 +8,12 @@ Highly motivated to get sufficient expirience in frontend development. Spend mor
 <br>
 Full of new ideas and open to critics. Confident.
 
-### Frontend Skills
 
-<<<<<<< HEAD
+### Frontend Skills
 Javascript, HTML5, CSS(SCSS), React.Js, SASS, NODE.js, (Bootstrap)
 
-### Code editors
 
+### Code editors
 VScode, Atom, Sublime, Notepad++;
 
 ### Code example
@@ -31,6 +30,7 @@ const twoSum = (nums, target) => {
     hashMap[nums[i]] = i;
   }
 };
+
 ```
 
 ### Examples
