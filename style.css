@@ -343,3 +343,10 @@ a:hover{
         }
     }
 }
+
+@media screen and (min-width: 600px) {
+    .mainPic {
+        width: 30vw;
+        height: 30vh;
+    }
+}
