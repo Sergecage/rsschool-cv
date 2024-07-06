@@ -345,8 +345,19 @@ a:hover{
 }
 
 @media screen and (min-width: 600px) {
-    .mainPic {
-        width: 30vw;
-        height: 30vh;
+    .portfolio{
+        flex-direction: column;
+        .portfolio-list{
+            li{
+                a{
+                    img{
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+    .education{
+        margin-top: 5%;
     }
 }
