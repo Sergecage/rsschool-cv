@@ -135,6 +135,7 @@ main{
         display: flex;
         flex-wrap: wrap;
         gap: 2em;
+        justify-content: center;
         li{
             display: flex;
             flex-direction: column;
