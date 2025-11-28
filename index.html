@@ -35,33 +35,35 @@
         <li><a>TypeScript<img src="img/icons/Typescript_logo_2020.svg.png" alt="typescript-logo"></a></li>
         <li><a>NODE.js<img src="img/icons/2560px-Node.js_logo.svg.png" alt="node-logo"></a></li>
         <li><a>React.js<img src="img/icons/react.svg" alt="react-logo"></a></li>
+        <li><a>Python<img src="img/icons/Python-logo-notext.svg.png" alt="python-logo"></a></li>
         <li><a>MySQL<img src="img/icons/sql-database-generic.svg" alt="sql-logo"></a></li>
     </ul>
     <h3 class="section-header">Code editors</h3>
     <ul class="skills">
         <li><a>VScode<img src="img/icons/Visual_Studio_Code_1.35_icon.svg.png" alt="vscode-logo"></a></li>
         <li><a>Atom<img src="img/icons/Atom_editor_logo.svg.png" alt="atom-logo"></a></li>
-        <li><a>Sublime<img src="img/icons/sublime-text.svg" alt="sublime-logo"></a></li>
-        <li><a>Notepad++<img src="img/icons/Notepad++_Logo.svg.png" alt="notepad++ logo"></a></li>
     </ul>
     <h3 class="section-header">Code example</h3>
     <pre class="codeIm">
         <code>
-            const twoSum = (nums, target) = {
-            const hashMap = {};for (let i = 0; i nums.length; i++) {
-                let matched = target - nums[i]
-                if (matched in hashMap){
-                    return [hashMap[matched],i];
+             interface Review {
+                    name: string;
+                    stars: number;
+                    loyaltyUser: LoyaltyUser;
+                    date: string;
                 }
-                hashMap[nums[i]] =i;
-            }
-        };
+
+                function getTopTwoReviews(reviews : Review[]) : Review[]  {
+                    const sortedReviews = reviews.sort((a, b) => b.stars - a.stars)
+                    return sortedReviews.slice(0,2)
+                }
     </code>
     </pre>
     <section class="portfolio" id="portfolio">
         <h3 class="section-header">Examples of work</h3>
         <ul class="portfolio-list">
             <li><a class="ref" href="https://sergecage.github.io/Coffee-shop/coffee-house/index.html"><img src="img/pics/Coffee-house6.png" alt="coffee-website">Coffee shop website</a></li>
+            <li><a class="ref" href="https://9ac5104d.ecommerce-app-4sh.pages.dev/"><img src="img/pics/Zefir.ca.png" alt="coffee-website">Homemade Zefir website</a></li>
             <li><a class="ref" href="https://sergecage.github.io/Zoo/pages/index.html"><img src="img/pics/zoo.png" alt="zoo website">Online Zoo website</a></li>
             <li><a class="ref" href="https://sergecage.github.io/Gizmo/main/"><img src="img/pics/Gizmo17.png" alt="Gizmo cookies">Gizmo cookies</a></li>
             <li><a class="ref" href="https://rolling-scopes-school.github.io/sergecage-JSFEPRESCHOOL2023Q2/library/main/index.html"><img src="img/pics/Js_Library.png" alt="Library website">Library website</a></li>
@@ -98,13 +100,11 @@
         <div class="contact-list">
             <ul>
                 <li><a class="footer-git" href="https://github.com/Sergecage"><img src="img/icons/github.svg" alt="github logo">Github</a></li>
-                <li><a class="footer-git" href="https://github.com/Sergecage"><img src="img/icons/discord.svg" alt="discord logo">Serge Cage</a></li>
             </ul>
             <ul>
-                <li>2024</li>
-                <li><a class="footer-git" href="https://rs.school/js-en/"><img class="rs-logo" src="rs_school_js.svg" alt="rs-logo"></a></li>
+                <li>2025</li>
             </ul>
-        </div>
     </footer>
+    </div>
 </body>
 </html>
