@@ -1,0 +1,365 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+body {
+    background: linear-gradient(to right, rgb(139, 129, 153),rgba(39, 20, 39, 0.877));
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+img{
+    border-radius: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPic {
+    width: 50vw;
+    height: 25vh;
+}
+
+.name, .info {
+    font-family: "Inter", sans-serif;
+    color: rgb(119, 207, 188);
+}
+
+.nav {
+    ul{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2em;
+        li{
+            a{
+                color: aliceblue;
+                font-size: 2rem;
+                font-weight: 400;
+                font-family: "Inter", sans-serif;
+                &:hover{
+                    color: rgb(151, 201, 201);
+                }
+            }
+        }
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .section-header{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.8rem;
+    }
+    .text{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+        color: rgb(119, 207, 188);
+        font-weight: 600;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+        li{
+            border: 1px solid black;
+            border-radius: 25%;
+            text-align: center;
+            width: 6em;
+            height: 6em;
+            background-color: #16151a;
+            a{
+                display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            color: aliceblue;
+            justify-content: center;
+            img{
+                width: 60%;
+            }
+            }
+            &:nth-child(n + 5) {
+                a{
+                    position: relative;
+                    top: 15%;
+                    align-items:center;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                a{
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.codeIm {
+    background: linear-gradient(to right, rgb(119, 207, 188),rgba(20, 16, 75, 0.877));
+    color: aliceblue;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .portfolio-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                cursor: pointer;
+            }
+            a{
+                color:rgb(119, 207, 188);
+                text-align: center;
+                font-size: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-family: 'Inter', sans-serif;
+                img{
+                    border-radius: 5%;
+                    width: 75vw;
+                    height: 20vh;
+                }
+            }
+        }
+    }
+}
+
+.certificates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .certificates-list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        left: -5%;
+        li{
+            a{
+                img {
+                    width: 75vw;
+                    height: 25vh;
+                    border-radius: 0;
+                }
+            }
+            &:nth-child(2){
+                position: absolute;
+                top: 10%;
+                z-index: -1;
+                left: 5%;
+                &:hover{
+                    z-index: 2;
+                    cursor: pointer;
+                }
+            }
+            &:nth-child(3){
+                position: absolute;
+                top: 17%;
+                left: 8%;
+                z-index: -2;
+                &:hover{
+                    z-index: 2;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+ .education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .education-list{
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        li{
+            color: rgb(119, 207, 188);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5rem;
+        }
+    }
+ }
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+        padding: 0;
+        li{
+            color: rgb(119, 207, 188);
+            font-family: "Inter", sans-serif;
+            font-size: 1.5rem;
+            margin-top: 0.5em;
+        }
+    }
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.contacts{
+    background: linear-gradient(to right,rgba(20, 16, 75, 0.877), rgb(119, 207, 188));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .contact-list{
+        display: flex;
+        gap: 55%;
+        justify-content: space-between;
+        position: relative;
+        left: -15%;
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 0;
+            li{
+                display: flex;
+                color: rgb(0, 0, 0);
+                font-size: 1.8rem;
+                a{
+                    display: flex;
+                    color: rgb(119, 207, 188);
+                    align-items: center;
+                    img{
+                        width: 15vw;
+                        height: 5vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mainPic {
+        width: 20vw;
+        height: 40vh;
+    }
+    .codeIm {
+        font-size:1.8rem;
+    }
+    .portfolio{
+        .portfolio-list{
+            flex-direction: row;
+            justify-content: center;
+            li{
+                a{
+                    img{
+                        width: 45vw;
+                        height: 45vh;
+                    }
+                }
+                &:hover{
+                    a{
+                        img{
+                            width: 43vw;
+                            height: 43vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .certificates{
+        .certificates-list{
+            li{
+                a{
+                    img{
+                        width: 45vw;
+                        height: 45vh;
+                    }
+                }
+            }
+        }
+    }
+    .education{
+        margin-top: 2.5em;
+    }
+    .contacts{
+        .contact-list{
+            justify-content: left;
+            left: 0;
+            gap: 0;
+            ul{
+                justify-content: flex-start;
+                align-items:start;
+                li{
+                    align-items: center;
+                    a{
+                        align-items: center;
+                        justify-content: left;
+                        img{
+                            width: 10vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .portfolio{
+        flex-direction: column;
+        .portfolio-list{
+            li{
+                a{
+                    img{
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+    .education{
+        margin-top: 5%;
+    }
+}
