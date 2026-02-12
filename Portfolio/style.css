@@ -131,12 +131,14 @@ main{
         gap: 0.5em;
         justify-content: center;
         li{
-            border: 1px solid black;
-            border-radius: 25%;
+            border: 1px solid var(--neon-soft);
+            border-radius: 10px;
             text-align: center;
             width: 6em;
             height: 6em;
-            background-color: #16151a;
+            background-color: #0f172a;
+            padding: 1rem;
+            box-shadow: inset 0 0 10px rgba(0, 299, 255, 0.15);
             a{
                 display: flex;
             flex-direction: column-reverse;
