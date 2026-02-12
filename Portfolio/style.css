@@ -105,6 +105,13 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: var(--bg-card);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--neon-soft);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 25px rgba(0, 299, 255, 0.05);
     .section-header{
         color: var(--text-muted);
         text-transform: uppercase;
