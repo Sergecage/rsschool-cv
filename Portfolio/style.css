@@ -53,6 +53,13 @@ header {
     border-radius: 12px;
     border: 2px solid var(--neon);
     box-shadow: 0 0 20px var(--neon-soft);
+    animation: glow 3s infinite ease-in-out;
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 10px 10px var(--neon-soft)};
+    50% {box-shadow: 0 25px 25px var(--neon-soft)};
+    100% {box-shadow: 0 10px 10px var(--neon-soft)};
 }
 
 .name, .info {
