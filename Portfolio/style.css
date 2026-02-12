@@ -380,20 +380,9 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 600px) {
-    .portfolio{
+@media (max-width: 600px) {
+    .nav{
         flex-direction: column;
-        .portfolio-list{
-            li{
-                a{
-                    img{
-                        height: 50vh;
-                    }
-                }
-            }
-        }
-    }
-    .education{
-        margin-top: 5%;
+        gap: 1rem;
     }
 }
