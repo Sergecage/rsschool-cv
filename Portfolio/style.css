@@ -1,10 +1,19 @@
 *, *:before, *:after {
     box-sizing: border-box;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Orbitron', "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --bg-main: #0b0f1a;
+  --bg-card: rgba(20, 30, 50, 0.6);
+  --neon: #00e5ff;
+  --neon-soft: rgba(0, 229, 255, 0.4);
+  --text-main: #e6faff;
+  --text-muted: #9bb3c9;
 }
 ul {
     list-style: none;
-    padding: 0;
 }
 
 a{
@@ -15,13 +24,14 @@ a{
 }
 
 body {
-    background: linear-gradient(to right, rgb(139, 129, 153),rgba(39, 20, 39, 0.877));
-    margin: 0;
+    background: radial-gradient(circle at top, #141e30, #0b0f1a);
+    color: var(--text-main);
 }
 
 .container {
     margin: 0 auto;
     width: 100%;
+    padding: 1.5rem;
     justify-content: center;
 }
 
@@ -32,21 +42,37 @@ img{
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     align-items: center;
+    gap: 1rem;
 }
 
 .mainPic {
-    width: 50vw;
-    height: 25vh;
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    border: 2px solid var(--neon);
+    box-shadow: 0 0 20px var(--neon-soft);
+    animation: glow 3s infinite ease-in-out;
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 10px 10px var(--neon-soft)};
+    50% {box-shadow: 0 25px 25px var(--neon-soft)};
+    100% {box-shadow: 0 10px 10px var(--neon-soft)};
 }
 
 .name, .info {
     font-family: "Inter", sans-serif;
-    color: rgb(119, 207, 188);
+    color: var(--neon);
+    letter-spacing: 2px;
 }
 
 .nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
     ul{
         padding: 0;
         display: flex;
@@ -55,12 +81,27 @@ header {
         gap: 1.2em;
         li{
             a{
-                color: aliceblue;
+                color: var(--text-main);
+                position: relative;
                 font-size: 2rem;
                 font-weight: 400;
                 font-family: "Inter", sans-serif;
+                text-decoration: none;
                 &:hover{
-                    color: rgb(151, 201, 201);
+                    color: var(--neon);
+                    &::after{
+                        width: 100%;
+                    }
+                }
+                &::after{
+                    content: '';
+                    position: absolute;
+                    bottom: -6px;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background: var(--neon);
+                    transition: 0.3s;
                 }
             }
         }
@@ -71,7 +112,16 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: var(--bg-card);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--neon-soft);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 25px rgba(0, 299, 255, 0.05);
     .section-header{
+        color: var(--text-muted);
+        text-transform: uppercase;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 1.8rem;
     }
@@ -88,12 +138,14 @@ main{
         gap: 0.5em;
         justify-content: center;
         li{
-            border: 1px solid black;
-            border-radius: 25%;
+            border: 1px solid var(--neon-soft);
+            border-radius: 10px;
             text-align: center;
             width: 6em;
             height: 6em;
-            background-color: #16151a;
+            background-color: #0f172a;
+            padding: 1rem;
+            box-shadow: inset 0 0 10px rgba(0, 299, 255, 0.15);
             a{
                 display: flex;
             flex-direction: column-reverse;
@@ -344,20 +396,9 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 600px) {
-    .portfolio{
+@media (max-width: 600px) {
+    .nav{
         flex-direction: column;
-        .portfolio-list{
-            li{
-                a{
-                    img{
-                        height: 50vh;
-                    }
-                }
-            }
-        }
-    }
-    .education{
-        margin-top: 5%;
+        gap: 1rem;
     }
 }
