@@ -371,8 +371,7 @@ a:hover {
         &:hover {
           a {
             img {
-              width: 43vw;
-              height: 43vh;
+              transform: scale(0.96);
             }
           }
         }
